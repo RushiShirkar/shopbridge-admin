@@ -1,0 +1,88 @@
+.customCard {
+  margin-top: 80px;
+  margin-left: 150px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+	height: 540px !important;
+}
+
+.selectInput:hover {
+	background-color: #fff !important;
+	color: #000000 !important;
+	border-color: #4723D9 !important;
+}
+
+table thead th { 
+	color: #777777 !important;
+	font-size:12px !important; 
+}
+table thead {
+	margin-bottom: 8px !important;
+}
+
+.no_product_div > * {
+	color: #000000 !important;
+}
+
+.my-custom-scrollbar {
+	position: relative;
+	height: 100% !important;
+	overflow: auto;
+}
+.table-wrapper-scroll-y {
+	display: block;
+}
+
+.fixed {
+	position: sticky !important;
+	top: 0 !important;
+}
+
+.icons {
+	color: #4723D9 !important;
+	font-size: 20px !important;	
+	margin-right: 8px !important;
+}
+
+.product-img {
+	width: 72px !important;
+	height: 72px !important;
+}
+
+.pagination-section {
+	position: fixed !important;
+	bottom: 1px !important;
+}
+.pagination {
+	justify-content: flex-end !important;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff !important;
+    background-color: #4723D9 !important;
+    border-color: #4723D9 !important;
+}
+.page-link {
+    color:  #4723D9 !important;
+}
+.react-confirm-alert-button-group > button {
+	font-size: 16px;
+	background-color: #4723D9 !important;
+}
+
+
+@media (max-width: 768px) {
+  .customCard {
+    margin-top: 80px;
+      margin-left: 4px;
+      margin-right: 4px;
+      margin-bottom: 20px; 
+  }
+  .selectInput {
+    margin-top:18px;
+  }
+}

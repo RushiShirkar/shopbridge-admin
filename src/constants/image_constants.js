@@ -1,0 +1,1 @@
+export const profile = require('../assets/images/bg_1.jpg');
